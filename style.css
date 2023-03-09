@@ -76,3 +76,26 @@ nav ul li a:hover::after {
     font-size: 60px;
     color: #15cea0;
 }
+
+.scrollable-div {
+    height: 84%;
+    overflow-y: scroll;
+}
+
+/* custom scrollbar design */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f0f0fb2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
