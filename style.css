@@ -44,6 +44,10 @@ nav {
     width: 15%;
 }
 
+.stacks {
+    width: 25%;
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;
