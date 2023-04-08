@@ -135,7 +135,7 @@ p a:hover {
 }
 
 #about-img {
-    width: 35%;
+    width: 40%;
 }
 
 #bio {
@@ -211,4 +211,20 @@ p a:hover {
 
 .centered-div {
     text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.contact-info a:hover {
+    color: #75ecce;
+    text-shadow: #07754d 5px 0 10px;
 }
