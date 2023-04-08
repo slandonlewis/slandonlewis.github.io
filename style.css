@@ -109,6 +109,11 @@ h3 {
     font-size: 30px;
 }
 
+/* p {
+    font-size: 16px;
+    font-size: 1rem;
+} */
+
 p a {
     color: #15cea0;
     text-decoration: none;
@@ -121,9 +126,23 @@ p a:hover {
 }
 
 .card-content {
+    /* flex: 1 1 auto; */
     display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#about-img {
+    width: 35%;
+}
+
+#bio {
+    margin-left: 5px;
+    text-align: center;
+    width: 60%;
+    /* font-size: 1.5vw; */
 }
 
 /* custom scrollbar design */
