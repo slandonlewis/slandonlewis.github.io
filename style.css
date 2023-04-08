@@ -44,8 +44,12 @@ nav {
     width: 15%;
 }
 
-.stacks {
-    width: 25%;
+.stack {
+    width: 45%;
+}
+
+.stack2 {
+    width: 20%;
 }
 
 nav ul li {
@@ -98,6 +102,11 @@ nav ul li a:hover::after {
 .slide h2 {
     color: #15cea0;
     font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 p a {
@@ -179,4 +188,8 @@ p a:hover {
 
 #google {
     color: rgb(23, 143, 255);
+}
+
+.centered-div {
+    text-align: center;
 }
